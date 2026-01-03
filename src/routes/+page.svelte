@@ -116,9 +116,9 @@
 	}
 </script>
 
-<div class="min-h-screen bg-base-100">
+<div class="min-h-screen bg-base-200">
 	<!-- Sticky Navigacija -->
-	<nav class="sticky top-0 z-50 bg-base-100/95 backdrop-blur-md shadow-lg border-b border-base-300">
+	<nav class="sticky top-0 z-50 bg-base-200/95 backdrop-blur-md shadow-lg border-b border-base-300">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="flex justify-between items-center h-20">
 				<div class="flex items-center space-x-2">
@@ -134,7 +134,7 @@
 	</nav>
 
 	<!-- Hero Sekcija sa Pretraživačem -->
-	<section class="relative bg-gradient-to-br from-base-200 via-base-100 to-base-200 py-20 lg:py-32">
+	<section class="relative bg-gradient-to-br from-base-300 via-base-200 to-base-300 py-20 lg:py-32">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 			<div class="text-center mb-12 space-y-6">
 				<h2 class="text-5xl lg:text-6xl font-bold text-base-content leading-tight">
@@ -148,7 +148,7 @@
 
 			<!-- Veliki Pretraživač -->
 			<div class="max-w-5xl mx-auto">
-				<div class="bg-base-100 rounded-2xl shadow-2xl p-6 lg:p-8 border border-base-300">
+				<div class="bg-base-200 rounded-2xl shadow-2xl p-6 lg:p-8 border border-base-300">
 					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
 						<div class="lg:col-span-2">
 							<label class="label">
@@ -223,7 +223,7 @@
 
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 			{#each filteredProperties() as property (property.id)}
-				<div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+				<div class="card bg-base-200 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden group">
 					<figure class="relative h-64 overflow-hidden">
 						<img
 							src={property.image}
@@ -276,7 +276,7 @@
 	</section>
 
 	<!-- Footer -->
-	<footer class="bg-base-200 border-t border-base-300 mt-24">
+	<footer class="bg-base-300 border-t border-base-400 mt-24">
 		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 			<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
 				<div>
