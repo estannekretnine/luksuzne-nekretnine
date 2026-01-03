@@ -126,8 +126,8 @@
 					<h1 class="text-2xl font-bold text-primary">Luksuzne Nekretnine</h1>
 				</div>
 				<button class="btn btn-primary btn-lg shadow-lg">
-					<span class="hidden sm:inline">Postavi Oglas</span>
-					<span class="sm:hidden">+ Oglas</span>
+					<span class="hidden sm:inline">Ponudite Nekretninu</span>
+					<span class="sm:hidden">+ Ponudi</span>
 				</button>
 			</div>
 		</div>
